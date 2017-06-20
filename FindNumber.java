@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class number{
+public class FindNumber{
  public static void main(String [] args){
   Scanner s=new Scanner(System.in);
   System.out.println("Enter a Number");
