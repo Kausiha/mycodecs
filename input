@@ -1,0 +1,77 @@
+Q1)
+Input:4(size)
+1 2 2 4
+Output:2
+
+Input:4(size)
+1 2 3 4
+Output:No Numbers are Repeated..
+
+i < n
+j < n
+
+This program finds repeated number with time complexity of O(n)
+
+Q3)
+
+Input:5
+-1 0 2 4 5
+Output:2
+
+Input:5
+-1 0 4 2 5
+Output:Enter Sorted Array
+
+a[i] > a[i + 1]
+i < n
+i < n-1
+
+Program to find integer equal to its index
+
+Q4)                
+Input:5
+1 1 2 3 3
+Output:2
+
+Input:5
+1 1 2 2 2
+Output:he Elements Can Occur only to Maximum of Two times
+
+i < a.length
+i < n
+j < a.length
+c == 1
+c > 2
+
+This program finds unique number from a array of integers.
+
+Q6)
+Input:4
+1 2 2 1
+Output:2
+
+Input:4
+1 2 3 4
+Output:No Output
+
+i < a.length
+j < a.length
+
+This program finds the first Repeated Integer.
+
+Q7)same as 4
+
+Q9)
+Input:5
+-3 -1 1 2 3
+Output:
+-3 3
+-1 1
+
+No Negative Case.
+Math.abs(0 - (a[i] + a[j])) < min
+Math.abs(a[i] + a[j]) == min
+j < n
+i < n
+
+This program is used to find elements sum close to zero
