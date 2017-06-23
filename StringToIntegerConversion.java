@@ -8,7 +8,7 @@ public class StringToIntegerConversion {
 		int val = 0, s1 = 1;
 		for (int i = 0; i < str.length(); i++) {
 			val = str.charAt(i);
-			System.out.println(+val + "");
+			System.out.format("%d ", val);
 		}
 		System.out.println("is the Integer for the String " + str);
 	}
