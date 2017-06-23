@@ -8,7 +8,7 @@ public class Isomorphic {
 		int flag = 0;
 		if (str1.length() == str2.length()) {
 			for (int i = 0; i < str1.length(); i++) {
-				for (int j = 0; j < str1.length(); j++) {
+				for (int j = i+1; j < str1.length(); j++) {
 					if (str1.charAt(i) == str1.charAt(j)) {
 						if (str2.charAt(i) == str2.charAt(j)) {
 							continue;
