@@ -1,5 +1,16 @@
 import java.util.Scanner;
 
+class Find {
+	void findValue(int[] a) {
+		for (int i = 0; i < a.length; i++) {
+			if (a[i] == i) {
+				System.out.format("%d ", a[i]);
+
+			}
+		}
+	}
+}
+
 public class FindValuesEqualToIndexInArray {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
