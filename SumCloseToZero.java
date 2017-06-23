@@ -23,7 +23,6 @@ public class SumCloseToZero {
 				}
 			}
 		}
-		System.out.print(sum);
 	}
 
 }
