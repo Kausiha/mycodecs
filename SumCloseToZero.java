@@ -7,7 +7,7 @@ public class SumCloseToZero {
 		int[] a = new int[n];
 		for (int i = 0; i < n; i++)
 			a[i] = s.nextInt();
-		int min = 1000, sum = 0;
+		int min = Math.abs(0 - (a[0] + a[1])), sum = 0;
 		for (int i = 0; i < n; i++) {
 			for (int j = i + 1; j < n; j++) {
 				if (Math.abs(0 - (a[i] + a[j])) < min) {
